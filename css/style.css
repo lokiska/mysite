@@ -1,0 +1,35 @@
+/* Header, footer */
+
+nav {
+  background-color: #FF6347;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+p{color: #1606ff;}
+h3{color: #1606ff;}
+p {
+ font-family: 'Yanone Kaffeesatz', sans-serif;}
+ h3 {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 500;
+ }
